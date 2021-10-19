@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Flip</string>
+    <string name="time">%d min, %d sec</string>
+</resources>

@@ -1,0 +1,21 @@
+difficulty:
+    easy = 1
+    average = 2
+    hard = 3
+    endless = 4
+
+•the initial unlock buttons are Easy and Easy1, Average1, Hard1
+•when the last stage on each difficulty finish, a new difficulty will be unlock
+
+POINTING SYSTEM:
+    time * 100
+    ex. 1:25 -> 125*100 = 1250
+
+
+when reach the last stage of every difficulty next stage button in dialog box will be turns into back to menu
+
+
+
+
+
+

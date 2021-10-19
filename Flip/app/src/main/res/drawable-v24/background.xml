@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/popup_optimized"
+        android:gravity="center"
+        android:width="@dimen/_350sdp"
+        android:height="@dimen/_150sdp"
+        />
+    <item>
+    <shape>
+        <corners android:radius= "12dp" />
+        <stroke android:color="@color/white"
+            android:width="@dimen/_3sdp"/>
+    </shape>
+</item>
+</layer-list>
+

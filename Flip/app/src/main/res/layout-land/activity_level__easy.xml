@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StageSelection.Level_Easy">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_level_lscape_optimized"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/btnback_optimized"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Easy"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEasy5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/btnEasy1"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_1_optimized"
+        app:layout_constraintEnd_toStartOf="@+id/btnEasy2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/btnEasy2" />
+
+    <ImageButton
+        android:id="@+id/btnEasy2"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_2_optimized"
+        app:layout_constraintEnd_toStartOf="@+id/btnEasy3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnEasy1"
+        app:layout_constraintTop_toTopOf="@+id/btnEasy3" />
+
+    <ImageButton
+        android:id="@+id/btnEasy3"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_3_optimized"
+        app:layout_constraintEnd_toStartOf="@+id/btnEasy4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnEasy2"
+        app:layout_constraintTop_toTopOf="@+id/btnEasy4" />
+
+    <ImageButton
+        android:id="@+id/btnEasy4"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_4_optimized"
+        app:layout_constraintEnd_toStartOf="@+id/btnEasy5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnEasy3"
+        app:layout_constraintTop_toTopOf="@+id/btnEasy5" />
+
+    <ImageButton
+        android:id="@+id/btnEasy5"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_5_optimized"
+        app:layout_constraintBottom_toTopOf="@+id/btnEasy10"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnEasy4"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/btnEasy10"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_10_optimized"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnEasy9"
+        app:layout_constraintTop_toBottomOf="@+id/btnEasy5" />
+
+    <ImageButton
+        android:id="@+id/btnEasy6"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_6_optimized"
+        app:layout_constraintEnd_toStartOf="@+id/btnEasy7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/btnEasy7" />
+
+    <ImageButton
+        android:id="@+id/btnEasy7"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_7_optimized"
+        app:layout_constraintEnd_toStartOf="@+id/btnEasy8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnEasy6"
+        app:layout_constraintTop_toTopOf="@+id/btnEasy8" />
+
+    <ImageButton
+        android:id="@+id/btnEasy8"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_8_optimized"
+        app:layout_constraintEnd_toStartOf="@+id/btnEasy9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnEasy7"
+        app:layout_constraintTop_toTopOf="@+id/btnEasy9" />
+
+    <ImageButton
+        android:id="@+id/btnEasy9"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/easy_9_optimized"
+        app:layout_constraintEnd_toStartOf="@+id/btnEasy10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnEasy8"
+        app:layout_constraintTop_toTopOf="@+id/btnEasy10" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
