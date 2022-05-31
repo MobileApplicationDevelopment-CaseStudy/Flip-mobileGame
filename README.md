@@ -1,6 +1,6 @@
 # Flip
 ## A Card Memory Game
-Group case study for Mobile app Development
+A case study submitted in partial fulfillment of the requirement for CCS 106 - Applications Development and Emerging Technologies
 
 ### Description
 This game is based on a game called “Matching pairs.” It is a card game in which all of the cards are laid face down, and the player needs to pick two similar cards. The player will start at stage 1 in easy mode. After finishing the levels on that mode (Easy, Medium, Hard), the player can now proceed to the levels in the higher mode. There will be several trials/lives given to the player at every start of the game (varies based on the level of difficulty). The mistakes done when matching the card will be deducted from the trials/lives.  The winning condition will be when the player matched the entire card without consuming all the trials/lives. 
