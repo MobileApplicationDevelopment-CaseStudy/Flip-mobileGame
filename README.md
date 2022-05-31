@@ -27,4 +27,4 @@ This game is based on a game called “Matching pairs.” It is a card game in w
 * It is not compatible with other operating systems (iOS, Windows, etc.)
 
 Source code :
-Android Apps - 01 - Installing Android Studio by [George Lecakes](https://www.youtube.com/watch?v=xkS5CFnDrIY&list=PLAp0ZhYvW6XY1NhwFosYCZtN4U6pPKuQ1).
+Making Android Apps - 10 - Memory Game by [George Lecakes](https://www.youtube.com/watch?v=oWlNgIk7Elw&list=PLAp0ZhYvW6XY1NhwFosYCZtN4U6pPKuQ1&index=10).
