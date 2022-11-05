@@ -1,4 +1,8 @@
 # Flip
+<p align="center">
+  <img src="https://github.com/MobileApplicationDevelopment-CaseStudy/Flip-mobileGame/blob/main/Flip/app/src/main/res/drawable-v24/logo_optimized.png" alt="drawing" width="500px" alt="Comet of Words"/>
+</p>
+
 ## A Card Memory Game
 A case study submitted in partial fulfillment of the requirement for CCS 106 - Applications Development and Emerging Technologies
 
